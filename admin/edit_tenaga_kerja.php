@@ -193,9 +193,9 @@
                   <div class="form-group">
                   <label class="col-sm-2 col-sm-2 control-label">Pendidikan Non Formal</label>
                     <div class="col-sm-4">
-                      <input type="text" name="pendidikan_nonformal" id="pendidikan_nonformal" value="<?php echo $row['pendidikan_nonformal']; ?>" class="form-control" required="required">
+                    <textarea id="pendidikan_nonformal" class="form-control" name="pendidikan_nonformal" style="width: 500px; height:150px;"><?php echo $row['pendidikan_nonformal']; ?></textarea>
+                    </div>
                   </div>
-                        </div>
                   <div class="form-group">
                     <label class="col-sm-2 col-sm-2 control-label">alamat</label>
                     <div class="col-sm-4">
