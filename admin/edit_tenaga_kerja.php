@@ -138,7 +138,7 @@
                   <div class="form-group">
                     <label class="col-sm-2 col-sm-2 control-label">NPWP</label>
                     <div class="col-sm-4">
-                      <input name="npwp" type="number" id="npwp" class="form-control" placeholder="NPWP" value="<?php echo $row['npwp']; ?>" autocomplete="off" required />
+                      <input name="npwp" type="number" id="npwp " class="form-control" placeholder="NPWP" value="<?php echo $row['npwp']; ?>" autocomplete="off" required />
 
                     </div>
                   </div>
@@ -190,15 +190,17 @@
                       <input type="text" name="pendidikan" id="pendidikan" value="<?php echo $row['pendidikan']; ?>" class="form-control" required="required">
                     </div>
                   </div>
+                  <div class="form-group">
                   <label class="col-sm-2 col-sm-2 control-label">Pendidikan Non Formal</label>
                     <div class="col-sm-4">
                       <input type="text" name="pendidikan_nonformal" id="pendidikan_nonformal" value="<?php echo $row['pendidikan_nonformal']; ?>" class="form-control" required="required">
-                    </div>
                   </div>
+                        </div>
                   <div class="form-group">
                     <label class="col-sm-2 col-sm-2 control-label">alamat</label>
                     <div class="col-sm-4">
                       <input type="text" name="alamat" id="alamat" class="form-control" value="<?php echo $row['alamat']; ?>" required="required">
+                      <class="form-control" required="required">
                     </div>
                   </div>
                   <div class="form-group">
